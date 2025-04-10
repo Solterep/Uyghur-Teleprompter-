@@ -1,0 +1,5 @@
+@charset "UTF-8";
+@font-face { font-family: "Alp Ekran";font-weight:normal;src: url('fonts/AlpEkran.eot'); /* IE */src: local("Alp Ekran"),local("Alpida Unicode System"), local("Alp Ekran"),url("fonts/AlpEkran.ttf") format("TrueType"); }/* non-IE */
+@font-face {font-family: 'Alp Ekran'; src: url('fonts/AlpEkran.eot?') format('embedded-opentype'), url('fonts/AlpEkran.ttf') format('truetype') }
+@font-face{font-family:"Alp Ekran";font-weight:normal;src:url('fonts/AlpEkran.eot');  src:local("Alp Ekran"),url("fonts/AlpEkran.ttf") format("TrueType");}
+body{font-family:Alp Ekran, Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;font: 15px/1.5 UKIJ Ekran,Alp Ekran,Alpida Unicode System,UKIJ Tuz Tom,Microsoft Uighur,DejaVu Sans,Helvetica Neue,Segoe UI,Helvetica,Tahoma,Arial,sans-serif;}

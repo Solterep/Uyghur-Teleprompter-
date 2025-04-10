@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ug" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <link href="solterep.css" rel="stylesheet"/>
+    <title>سىيرىلما سۆز كۆرسەتكۈچ</title>
+</head>
+<body>
+    <div class="container">
+        <h1>سىيرىلما سۆز كۆرسەتكۈچ</h1>
+		        <button id="fullscreen-btn">پۈتۈن ئىكران</button>
+        <div id="teleprompter">
+            <div id="scroll-content">
+سىيرىلىدىغان تېكىستنى كىرگۈزۈڭ...
+            </div>
+        </div>
+  <textarea id="input-text" placeholder=" سىيرىلىدىغان تېكىستنى كىرگۈزۈڭ..."></textarea>
+        <div class="controls">
+            <button onclick="startScroll()">باشلاش</button>
+            <button onclick="pauseScroll()">توختىتىش</button>
+            <button onclick="stopScroll()">ئاخىرلاشتۇرۇش</button>
+            <label>سۈرئەت: <input type="range" id="speed" min="1" max="10" value="5" onchange="updateSpeed()"></label>
+            <label>خەت چوڭلۇقى: 
+                <select id="font-size" onchange="updateFontSize()">
+                    <option value="16">16px</option>
+                    <option value="20">20px</option>
+                    <option value="24" selected>24px</option>
+                    <option value="28">28px</option>
+                    <option value="32">32px</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+	<footer class="text-center mt-4">
+	        <p>Copyright©2025 <a href="https://www.solterep.com" target="_blank">www.solterep.com</a> ※ All Rights Reserved</p>
+	    </footer>
+</body>
+</html>    
